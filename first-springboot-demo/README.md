@@ -69,10 +69,16 @@ mkdir -p ~/.m2
 
 ## 3. 启动 Spring Boot 项目
 
-### 3.1 进入项目目录
+### 3.1 初始化springboot项目
+
+进入 https://start.spring.io/初始化项目，选择maven，jdk17，然后下载zip包解压
+
 ```bash
 cd 项目根目录
 ```
+
+修改pom.xml中的jdk版本和机器匹配，	<java.version>8</java.version>
+
 
 ### 3.2 使用 Maven 启动项目
 ```bash
